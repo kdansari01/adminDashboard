@@ -1,19 +1,104 @@
-import React from 'react'
-import "./sidebar.scss"
+import React from "react";
+import "./sidebar.scss";
+import DashboardIcon from "@mui/icons-material/Dashboard";
+import PersonIcon from "@mui/icons-material/Person";
+import ShoppingBagIcon from "@mui/icons-material/ShoppingBag";
+import LocalShippingIcon from "@mui/icons-material/LocalShipping";
+import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
+import QueryStatsIcon from "@mui/icons-material/QueryStats";
+import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
+import SettingsIcon from "@mui/icons-material/Settings";
+import AccountBoxIcon from "@mui/icons-material/AccountBox";
+import LogoutIcon from "@mui/icons-material/Logout";
 const Sidebar = () => {
   return (
-    <div className="container-fluid sidebar">
-        <div className="row">
-            <div className="sidebarWrapper">
-                <div className='top d-flex  align-item-center justify-content-center'><span className='logo text-danger '>KDansari</span></div>
-                <hr/>
-                <div className='center'>
-
-                </div>
+    <div className="container-fluid sidebar col-2">
+      <div className="row">
+        <div className="sidebarWrapper">
+          <div className="top d-flex align-item-center justify-content-center mt-4">
+            <span className="logo text-danger ">KDansari</span>
+          </div>
+          <hr className="mt-4" />
+          <div className="center  m-4 p-2">
+            <div className="Main mb-3">
+              <h6>Main</h6>
+              <div>
+                <DashboardIcon className="m-1 text-primary" />
+                <span>Dashboard</span>
+              </div>
             </div>
-        </div>
-    </div>
-  )
-}
+            <div className="List mb-3">
+              <h6>List</h6>
+              <div>
+                <PersonIcon className="m-1 text-primary" />
+                <span>user</span>
+              </div>
+              <div>
+                <ShoppingBagIcon className="m-1 text-primary" />
+                <span>Products</span>
+              </div>
+              <div>
+                <AddShoppingCartIcon className="m-1 text-primary" />
+                <span>Order</span>
+              </div>
+              <div>
+                <LocalShippingIcon className="m-1 text-primary" />
+                <span>Delivery</span>
+              </div>
+            </div>
 
-export default Sidebar
+            <div className="useful mb-3">
+              <h6>Useful</h6>
+              <div>
+                <QueryStatsIcon className="m-1 text-primary" />
+                <span>Stats</span>
+              </div>
+              <div>
+                <NotificationsNoneIcon className="m-1 text-primary" />
+                <span>Notification</span>
+              </div>
+            </div>
+
+            <div className="service mb-3">
+              <h6>Service</h6>
+              <div>
+                <SettingsIcon className="m-1 text-primary" />
+                <span>System</span>
+              </div>
+              <div>
+                <SettingsIcon className="m-1 text-primary" />
+                <span>Logs</span>
+              </div>
+              <div>
+                <SettingsIcon className="m-1 text-primary" />
+                <span>Setting</span>
+              </div>
+            </div>
+
+            <div className="user mb-3">
+              <h6>User</h6>
+              <div>
+                <AccountBoxIcon className="m-1 text-primary" />
+                <span>Profile</span>
+              </div>
+              <div>
+                <LogoutIcon className="m-1 text-primary" />
+                <span>Logout</span>
+              </div>
+            </div>
+
+            <div className="theme mb-3">
+              <h6>Theme</h6>
+              <div>
+                <DashboardIcon />
+                <DashboardIcon />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Sidebar;

@@ -1,0 +1,29 @@
+
+
+.cardIcons{
+    position: relative;
+    float: right;
+    
+}
+.users{
+    background: pink;
+    color: purple;
+}
+.orders{
+    background: rgb(248, 152, 168);
+    color: rgb(44, 40, 37);
+}
+.earnings{
+    background: rgba(0, 128, 0, 0.651);
+    color: rgb(9, 80, 9);
+}
+.myBalance{
+    background: rgba(141, 5, 141, 0.144);
+    color: purple;
+}
+.card{
+    border-radius: 26px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  8px 8px 0px #dbdbdb,
+                 -8px -8px 0px #ffffff;
+}
