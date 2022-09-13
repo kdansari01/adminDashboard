@@ -22,26 +22,26 @@ const Sidebar = () => {
           <div className="center  m-4 p-2">
             <div className="Main mb-3">
               <h6>Main</h6>
-              <div>
+              <div className="sidebar_Icons">
                 <DashboardIcon className="m-1 text-primary" />
                 <span>Dashboard</span>
               </div>
             </div>
             <div className="List mb-3">
               <h6>List</h6>
-              <div>
+              <div className="sidebar_Icons">
                 <PersonIcon className="m-1 text-primary" />
                 <span>user</span>
               </div>
-              <div>
+              <div className="sidebar_Icons">
                 <ShoppingBagIcon className="m-1 text-primary" />
                 <span>Products</span>
               </div>
-              <div>
+              <div className="sidebar_Icons">
                 <AddShoppingCartIcon className="m-1 text-primary" />
                 <span>Order</span>
               </div>
-              <div>
+              <div className="sidebar_Icons">
                 <LocalShippingIcon className="m-1 text-primary" />
                 <span>Delivery</span>
               </div>
@@ -49,11 +49,11 @@ const Sidebar = () => {
 
             <div className="useful mb-3">
               <h6>Useful</h6>
-              <div>
+              <div className="sidebar_Icons">
                 <QueryStatsIcon className="m-1 text-primary" />
                 <span>Stats</span>
               </div>
-              <div>
+              <div className="sidebar_Icons">
                 <NotificationsNoneIcon className="m-1 text-primary" />
                 <span>Notification</span>
               </div>
@@ -61,15 +61,15 @@ const Sidebar = () => {
 
             <div className="service mb-3">
               <h6>Service</h6>
-              <div>
+              <div className="sidebar_Icons">
                 <SettingsIcon className="m-1 text-primary" />
                 <span>System</span>
               </div>
-              <div>
+              <div className="sidebar_Icons">
                 <SettingsIcon className="m-1 text-primary" />
                 <span>Logs</span>
               </div>
-              <div>
+              <div className="sidebar_Icons">
                 <SettingsIcon className="m-1 text-primary" />
                 <span>Setting</span>
               </div>
@@ -77,11 +77,11 @@ const Sidebar = () => {
 
             <div className="user mb-3">
               <h6>User</h6>
-              <div>
+              <div className="sidebar_Icons">
                 <AccountBoxIcon className="m-1 text-primary" />
                 <span>Profile</span>
               </div>
-              <div>
+              <div className="sidebar_Icons">
                 <LogoutIcon className="m-1 text-primary" />
                 <span>Logout</span>
               </div>
@@ -89,7 +89,7 @@ const Sidebar = () => {
 
             <div className="theme mb-3">
               <h6>Theme</h6>
-              <div>
+              <div className="sidebar_Icons">
                 <DashboardIcon />
                 <DashboardIcon />
               </div>
