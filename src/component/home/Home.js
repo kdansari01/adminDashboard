@@ -6,6 +6,7 @@ import Sidebar from "../sidebar/Sidebar";
 import "./home.scss";
 import Chart from "../chart/Chart";
 import Featured from "../featured/Featured";
+import List from "../list/List";
 
 const Home = () => {
   return (
@@ -20,10 +21,18 @@ const Home = () => {
         <div className="row">
           <div className="col-lg-12 d-flex p-4 m-4">
             <div className="col-4">
-              <Featured/>
+              <Featured />
             </div>
             <div className="col-lg-8 chart">
               <Chart title="Last 6 Months (Revenue)" aspect={2 / 1} />
+            </div>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-lg-12 d-flex p-4 m-4">
+            <div className="col-8">
+              <List />
             </div>
           </div>
         </div>
